@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Guess the Number</title>
+   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body >
+    <h2 style="text-align: center;">WELCOME</h2>
+    <h3 style="text-align: center;font-size: 25px;">It's Guess the Number Game!</h3>
+    <p  style="text-align: center;color: rgb(221, 30, 30);">A number will be chosen from 1 - 100 randomly..! 
+        <br> You will be given chances / turns of 10 or lesser . <br>
+        If you guess the number correctly then you won the game .. <br>
+        else for every fail you given a hint that the value you chosen <br>
+        is lesser or greater than the number taken randomly...!!! <br>
+    now your are ready for the game after the above instructions </p>
+    <br>
+    <div class="message" style="font-size: 30px; display:flex;justify-content: center;margin-bottom: 5px;color: rgb(231, 139, 64);font-family: Permanent Marker;"></div>
+    <div style="display:flex;justify-content: center; border: 2px solid;border-radius: 10px;width:500px; margin-left: 400px;" class="container">
+        <h3>Guess the Number</h3>
+      
+        <input style= "margin-top: 80px; margin-left: -160px;border: 2px solid;border-radius: 5px;height: 25px;" text="number" name="number" id="number">
+
+        <button id="guess" style="margin-top: 130px;margin-left: -140px;margin-bottom: 20px;border: 2px solid;border-radius: 5px;background-color: rgb(245, 173, 18);height: 30px;" >sumbit guess</button>
+    </div>
+    <br>
+    <br>
+    <div class="turn" style="margin-left: 500px; text-align: center;color: rgb(187, 112, 0);font-family: Permanent Marker;"></div>
+    <div style="margin-left: 560px;">
+        <button id="play-again" style="border-radius: 5px; background-color: plum;">play-again?</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
